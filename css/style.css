@@ -6,11 +6,13 @@
 
 html, body {
     height: 100vh;
-    overflow: hidden;
-    background-color: rgb(253, 246, 236);
 }
 
 main {
+    height: 100vh;
+    display: flex;
+}
+.left {
     width: 50vw;
-    background-color: rgb(67, 49, 24);
+    background-image: url('../assets/login.jpg');
 }
