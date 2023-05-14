@@ -6,9 +6,11 @@
 
 html, body {
     height: 100vh;
-    width: 100vw;
+    overflow: hidden;
+    background-color: rgb(253, 246, 236);
 }
 
 main {
-    height: 100vh;
+    width: 50vw;
+    background-color: rgb(67, 49, 24);
 }
