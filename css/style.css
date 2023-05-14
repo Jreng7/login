@@ -12,7 +12,12 @@ main {
     height: 100vh;
     display: flex;
 }
+
 .left {
     width: 50vw;
     background-image: url('../assets/login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 0 10px #ccc;
 }
