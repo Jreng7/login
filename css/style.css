@@ -10,13 +10,16 @@ html, body {
 
 main {
     height: 100vh;
-    display: flex;
+    display: flex;  
 }
 
 .left {
     width: 50vw;
     display: flex;
+    border-radius: 2px;
     flex-direction: column;
     justify-content: center;
-    box-shadow: 7px 0 12px rgba(205, 119, 193, 0.7);
+    border: solid 7px #e0a0f2;
+    background-color: rgba(205, 119, 193, 0.7);
+    box-shadow: 15px 0 20px rgba(205, 119, 193, 0.7);
 }
